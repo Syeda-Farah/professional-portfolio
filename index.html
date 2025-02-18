@@ -62,7 +62,7 @@
         </div>
         </div>
         <div class="nav-buttons">
-<div class="nav-settings">
+<div class="nav-settings" id="switcher-toggle">
     <i class="ri-settings-3-line"></i>
 </div>
 <div id="nav-toggle" class="nav-toggle">
@@ -76,7 +76,7 @@
         <section class="home section">
 <div class="home-container container">
 <div class="home-content">
-    <h2 class="home-subtitle">Hello,<span>My Name is</span></h2>
+    <h2 class="home-subtitle">Hello,<span> My Name is</span></h2>
     <h1 class="home-title"><span>Iftiar </span> Chowdhury</h1>
     <h3 class="home-job">Front-End Developer</h3>
     <div class="home-banner">
@@ -124,6 +124,51 @@
       </div>
       </section>
       </main>
+
+      <!-- style switcher=================== -->
+       <div class="style-switcher" id="style-switcher">
+ <h2 class="style-switcher-title">Style Switcher</h2>
+
+ <div class="style-switcher-item">
+    <h3 class="style-switcher-subtitle">Theme</h3>
+    <div class="style-switcher-themes">
+        <div class="style-switcher-theme">
+            <input type="radio" class="style-switcher-input" name="body-theme" value="light" id="light-theme">
+            <label for="light-theme"checked="true" class="style-switcher-label">Light</label>
+        </div>
+
+        <div class="style-switcher-theme">
+            <input type="radio" class="style-switcher-input" name="body-theme" value="dark" id="dark-theme " >
+            <label for="dark-theme" class="style-switcher-label">Dark</label>
+        </div>
+    </div>
+</div>
+ <div class="style-switcher-item">
+<h3 class="style-switcher-subtitle">colors</h3>
+<div class="style-switcher-colors">
+
+<span class="style-switcher-color active-color" style="--hue: 165">
+    <i class="ri-check-line"></i>
+</span>
+<span class="style-switcher-color" style="--hue: 260">
+    <i class="ri-check-line"></i>
+</span>
+<span class="style-switcher-color" style="--hue: 345">
+    <i class="ri-check-line"></i>
+</span>
+<span class="style-switcher-color" style="--hue: 65">
+    <i class="ri-check-line"></i>
+</span>
+<span class="style-switcher-color " style="--hue: 15">
+    <i class="ri-check-line"></i>
+</span>
+</div>
+
+        </div>
+        <div class="style-switcher-close" id="switcher-close">
+            <i class="ri-close-line"></i>
+        </div>
+       </div>
      <!-- js file -->
       <script src="./script.js"></script>
 </body>
