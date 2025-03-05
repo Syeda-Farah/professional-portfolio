@@ -8,7 +8,7 @@ navToggle.addEventListener('click', () => {
 })
 
 
-// =================style-switcher====================
+// =================style-switcher start====================
 const styleSwitcher = document.getElementById('style-switcher')
 switcherToggle = document.getElementById('switcher-toggle')
 switcherClose = document.getElementById('switcher-close')
@@ -39,3 +39,24 @@ colors.forEach((color)=> {
      document.body.className = currentTheme;
  })
 })
+// =================style-switcher ends====================
+// // ================================services swiper starts
+// var ServicesSwiper = new Swiper(".services-swiper", {
+//     spacebetween: 32;
+//     pagination: {
+//       el: ".swiper-pagination",
+//       clickable: true, 
+//     },
+
+//     breakpoints: {
+     
+//         768: {
+//           slidesPerView: 2,
+       
+//         },
+//         1024: {
+//           slidesPerView: 3,
+       
+//         },
+//       },
+//   });
