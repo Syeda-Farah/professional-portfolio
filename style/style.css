@@ -475,7 +475,7 @@ background-color: var(--border-color);
     font-size: var(--h1-font-size)
 }
 
- .swiper-wrapper{
+ .services-containers{
 justify-content: center;
 align-items: center;
 display: flex;
@@ -483,15 +483,15 @@ flex-wrap: wrap;
 gap: 50px;
 padding: 30px;
 }
-.swiper-slide{
+.services-slide{
     border: 2px solid black;
     border-radius: 5%;
-    width: 320px;
+    width: 280px;
     padding: 40px;
     text-align: center;
     transition: all 0.5s ease-in-out;;
 }  
-.swiper-slide:hover{
+.services-slide:hover{
     background-color: var(--first-color);
     color: var(--white-color);
     transform: translateY(-10px)
